@@ -23,27 +23,36 @@
     <form>
         <div class="form-group">
           <label for="exampleFormControlInput1">Search Term:</label>
-          <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+          <input type="text" class="form-control" id="search-term-entry" placeholder="name@example.com">
         </div>
         <div class="form-group">
           <label for="exampleFormControlSelect1">Number of Records to Retrieve:</label>
-          <select class="form-control" id="exampleFormControlSelect1"></select>
+          <select class="form-control" id="record-number">
+
+            <option>5</option>
+            <option>6</option>
+            <option>7</option>
+            <option>8</option>
+            <option>9</option>
+            <option>10</option>
+
+          </select>
         </div>
         <div class="form-group">
-            <label for="exampleFormControlSelect1">Start Year (Optional):</label>
-            <select class="form-control" id="exampleFormControlSelect1">
-              <option>1</option>
-              <option>2</option>
-              <option>3</option>
-              <option>4</option>
-              <option>5</option>
-            </select>
-          </div>
+          <label for="exampleFormControlTextarea1">Start Year (Optional)</label>
+          <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+        </div>
         <div class="form-group">
-          <label for="exampleFormControlTextarea1">Example textarea</label>
+          <label for="exampleFormControlTextarea1">End Date (Optimal)</label>
           <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
         </div>
       </form>
+
+      <div id="top-articles">
+        
+        <h5>Top Articles</h5>
+
+      </div>
        
 </body>
 
