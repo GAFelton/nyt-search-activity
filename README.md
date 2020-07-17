@@ -46,27 +46,20 @@
 * Display the HTML content!!
 
 
-# New York Times Article Search - Phase 02
+# New York Times Article Search - Phase 03
 
 ## Front-End Team
 
-* Begin creating basic click events. Register the submit button
+* Continue polishing the display of content in the HTML.
 
-* Create working transfers of data between the text-boxes and the backend.
+* Consider adding styling or other jQuery tricks.
 
-* Experiment with creating content regions for where the article will go.
+* Consider using Bootswatch and/or Font Awesome to add more visual appeal
 
 ## Back-End Team
 
-* Create the AJAX call needed to retrieve data then console.log all of the relevant fields.
+* Put in a hard-effort to deal with bugs. How can you handle missing fields?
 
-* Incorporate various “optional parameters” (hard code these in initially).
-
-* Take note of various “bugs” that appear with certain searches.
-
-## All-Together
-
-* Display the HTML content!!
 
 
 # New York Times Article Search - Phase 04
